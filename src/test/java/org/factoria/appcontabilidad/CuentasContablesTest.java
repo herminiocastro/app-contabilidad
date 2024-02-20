@@ -26,7 +26,8 @@ public class CuentasContablesTest {
 
         assertEquals(14, c.codigoDeLaCuenta("PROVISIONES PARA RIESGOS Y GASTOS"));
         assertEquals(142, c.codigoDeLaCuenta("PROVISIÓN PARA RESPONSABILIDADES"));
-
+        assertEquals(150, c.codigoDeLaCuenta("OBLIGACIONES Y BONOS"));
+        assertEquals(300, c.codigoDeLaCuenta("MERCADERIAS"));
     }
 
 
